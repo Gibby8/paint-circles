@@ -16,7 +16,7 @@ function my_mousedown(e){
 canvas.addEventListener("mousemove", my_mousemove)
 function my_mousemove(e){
     current_position_of_mouse_x = e.clientX - canvas.offsetLeft;
-    current_position_of_mouse_y  e.clientY- canvas.offsetTop;
+    current_position_of_mouse_y = e.clientY- canvas.offsetTop;
 
     if(mouseEvent == "mousedown"){
         ctx.beginPath();
