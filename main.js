@@ -24,7 +24,7 @@ function my_mousemove(e){
         ctx.lineWidth = widthofline;
         console.log("last position of x and y ");
         console.log("x = " + last_position_x + "y = " + last_position_y);
-        ctx.moveTo(last_position_x, last_position_y);
+        //ctx.moveTo(last_position_x, last_position_y);
         ctx.arc(current_position_of_mouse_x, current_position_of_mouse_y, 40, 0, 2 * Math.PI)
         console.log("current position of x and y ");
         console.log("x = " + current_position_of_mouse_x + "y = " + current_position_of_mouse_y);
